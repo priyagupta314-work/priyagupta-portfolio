@@ -6,13 +6,16 @@
 body{
     font-family:'Piazzolla', serif;
 }
+.link{
+    text-decoration: none;
+}
 
 .link-primary{
     background-color: var(--color-primary);
     padding:0.5rem 0.5rem;
     border-radius:0.5rem;
     color:white;
-    text-decoration: none;
+    
     }
 .link-secondary{
     border:solid;
@@ -21,13 +24,61 @@ body{
     border-radius:0.5rem;
     color:var(--color-primary);
     margin:0.5rem;
-    text-decoration: none;
+    
 }
-.non-bullet{
+.list-non-bullet{
     list-style: none;
     
 }
-.inline-item{
+.list-item-inline{
     list-style: none;
     display: inline;
+    padding: 0.5rem 1rem;
 }
+.navigation-container{
+    background-color: var(--color-primary);
+    color:white;
+    padding: 0.2rem 0.5rem ;
+    border-bottom-left-radius: 0.5rem ;
+  }
+.navigation-container .nav-pills{
+    text-align: right;
+    
+    }
+.navigation-container .link{
+    color:white;
+}
+.navigation-container .link-active{
+    font-weight: bold;
+    }
+.hero{
+    margin: auto;
+    text-align: center;
+    
+    }
+.hero .hero-img{
+    height:50vh;
+    width:50vw;
+    margin: auto;
+    padding: 1rem;
+    
+}
+.section-white{
+    text-align: center;
+    padding-bottom: 1rem;
+    }
+.section-offwhite{
+    text-align: center;
+    background-color: #E2E8F0;
+    padding-bottom:1rem;
+}
+.footer{
+    background-color: var(--color-primary);
+    text-align: center;
+    border-top-right-radius: 0.5rem;
+    padding:0rem 0.5rem;
+}
+.container-center{
+    text-align: center;
+}
+
