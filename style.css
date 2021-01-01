@@ -3,8 +3,7 @@
 
     ;
     --color-white: white;
-    --color-ow: #FAFAFA
-    ;
+    --color-ow: #FDBA74;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Piazzolla:ital@0;1&display=swap');
@@ -23,7 +22,7 @@ body {
 .link {
     text-decoration: none;
     border-radius: 0.5rem;
-
+    
 }
 
 .link-active{
