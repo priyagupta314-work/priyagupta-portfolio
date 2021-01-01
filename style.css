@@ -23,6 +23,10 @@ body {
 
 }
 
+.link-active{
+    font-weight: bold;
+}
+
 .link-primary {
     background-color: var(--color-primary);
     padding: 0.5rem 0.5rem;
