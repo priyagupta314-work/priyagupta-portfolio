@@ -2,7 +2,8 @@
     --color-primary: #14532D
     ;
     --color-white: white;
-    --color-ow: #BBF7D0;
+    --color-ow: #F0FDF4
+    ;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Piazzolla:ital@0;1&display=swap');
