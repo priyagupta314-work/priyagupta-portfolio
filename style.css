@@ -1,7 +1,8 @@
 :root {
-    --color-primary: #F50057
+    --color-primary: #14532D
     ;
     --color-white: white;
+    --color-ow: #BBF7D0;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Piazzolla:ital@0;1&display=swap');
@@ -104,7 +105,7 @@ body {
 
 .section-offwhite {
     padding: 1rem 1rem 2rem 1rem;
-    background-color: #E2E8F0;
+    background-color: var(--color-ow);
 
 }
 
