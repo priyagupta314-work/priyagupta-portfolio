@@ -108,6 +108,8 @@ body {
 .section {
     text-align: center;
     padding:1rem 1rem;
+    max-width:60vw;
+    margin:auto;
 }
 
 .section-head{
