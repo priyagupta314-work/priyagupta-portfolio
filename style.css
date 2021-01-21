@@ -128,3 +128,18 @@ body {
     border-top-right-radius: 0.5rem;
     padding: 0.1rem 0.1rem;
 }
+
+
+.blog-listing{
+padding: 0rem 4rem;
+}
+
+.blog-listing-link{
+    text-decoration: none;
+}
+
+video{
+    margin: auto;
+    display: block;
+    
+}

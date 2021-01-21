@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPA for Mainframes</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <section class="section">
+        <div class="section section-white">
+
+        <h1> RPA for Mainframe systems</h1>
+        <div class="blog-listing">
+            <small> January 3, 2021</small>
+            <code style=background-color:gray> Technical </code>
+            
+            <p> Automation Anywhere is a RPA tool that provides great capabilities to automate repetetive and rule-based tasks. You start with noting down the manual steps that a real human being would perform and then train a bot to perform exactly same actions. The bot performs them repeatedly and without any errors. Below is a use-case of using RPA on Mainframe systems.</p>
+            
+            </div>
+        
+    </section>
+    <p class="blog-listing"> Scenario: Check 5000+ Mainframe batch jobs in CA7 scheduler and identify whether those are active or turned off. This task has to be done by manual screen scraping for each job as there is no way to have it done programatically.  </p>
+    <p class="blog-listing"> Let us see the manual steps involved: </p>
+    <ol class="blog-listing">
+        
+        <li> Open excel sheet containing the list of jobs</li>
+        <li> Goto cell A1</li>
+        <li> Copy job name. </li>
+        <li> Open the Mainframes CA7 window.</li>
+        <li> Press F11 key.</li>
+        <li> Paste the copied job name and press Enter key.</li>
+        <li> Copy job's last run date from the CA7 screen. </li>
+        <li> Open excel sheet. </li>
+        <li> Move one cell towards the right. </li>
+        <li>  Paste the job's last run date. </li>
+        <li> Position the cursor to next job name and repeat steps 3 to 11.</li>
+        <li> Save the spreadsheet.</li>
+                
+    </ol>
+    <p class="blog-listing"> All of the above steps had to be performed for 5000+ jobs and doing it manually is quite laborious and prone to human errors. As the task is rule-based,  an Automation Anywhere bot can be created and trained to perform the steps. The bot uses Optical Character Recognition(OCR) capabilities of the tool to perform screen scraping. Check the below video.</p> 
+    <video width="320" height="240" controls>
+        <source src = "Presentation2.mp4" type="video/mp4" /> 
+        
+    </video>
+</body>
+</html>
