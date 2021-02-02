@@ -130,6 +130,10 @@ body {
     padding: 0.1rem 0.1rem;
 }
 
+.footer-header{
+    color: var(--color-white);
+}
+
 
 .blog-listing{
 padding: 0rem 4rem;
