@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300;400&display=swap');
+h1{
+    text-align: center;
+}
+body{
+    font-family: 'Chivo', sans-serif;
+    margin: 2rem auto;
+    padding: 2rem 10rem;
+    background-color: aliceblue;
+}
+video{
+    margin: auto;
+    display: block;
+    
+}
