@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300;400&display=swap');
 h1{
     text-align: center;
+    background-color: black;
+    border-radius: 0.5rem;
+    color: #00ffff;
 }
 body{
     font-family: 'Chivo', sans-serif;
     margin: 2rem auto;
     padding: 2rem 10rem;
-    background-color: aliceblue;
+    background-color: #7fb8b8;
 }
 video{
     margin: auto;
