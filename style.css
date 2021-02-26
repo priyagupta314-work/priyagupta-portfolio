@@ -1,9 +1,9 @@
 :root {
-    --color-primary: #F97316
+    --color-primary: #7fb8b8
 
     ;
     --color-white: white;
-    --color-ow: #FDBA74;
+    --color-ow: #7fb8b8;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Piazzolla:ital@0;1&display=swap');
@@ -153,6 +153,7 @@ margin: 2rem 1rem;
 
 .blog-listing-link{
     text-decoration: none;
+    color: #519494;
 }
 
 video{
