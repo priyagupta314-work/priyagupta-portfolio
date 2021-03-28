@@ -1,9 +1,10 @@
 :root {
-    --color-primary: #7fb8b8
-
-    ;
+    --color-primary: #7fb8b8;
+    --color-primary2: #2a7070;
     --color-white: white;
     --color-ow: #7fb8b8;
+    --color-gray: gray;
+    --color-yellow: #cfccae;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Piazzolla:ital@0;1&display=swap');
@@ -45,7 +46,10 @@ background-size: cover;
     background-color: var(--color-primary);
     padding: 0.5rem 0.5rem;
     color: var(--color-white);
+}
 
+.link-primary:hover{
+    background-color: var(--color-primary2);
 }
 
 .link-secondary {
@@ -55,6 +59,11 @@ background-size: cover;
     color: var(--color-primary);
     margin: 0.5rem;
 
+}
+
+.link-secondary:hover{
+    color: var(--color-white);
+    background-color: var(--color-gray);
 }
 
 .list-non-bullet {
@@ -149,6 +158,23 @@ background-size: cover;
 .blog-listing{
 padding: 0rem 4rem;
 margin: 2rem 1rem;
+}
+
+.projects{
+    display:flex;
+    flex-wrap:wrap;
+}
+.project-details{
+    border: 2px solid var(--color-primary);
+    border-radius: 0.5rem; 
+    margin: 1rem;
+    max-width: 250px;
+    padding: 2rem;
+    background-color: var(--color-white);
+}
+
+.project-details:hover{
+    background-color: var(--color-yellow);
 }
 
 .blog-listing-link{
