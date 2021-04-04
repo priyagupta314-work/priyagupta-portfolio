@@ -1,10 +1,11 @@
 :root {
-    --color-primary: #7fb8b8;
-    --color-primary2: #2a7070;
+    --color-primary: #0a3d62;
+    --color-primary2: #82ccdd;
     --color-white: white;
     --color-ow: #7fb8b8;
     --color-gray: gray;
-    --color-yellow: #cfccae;
+    --color-yellow: #e3ebc2;
+    --color-pink: rgb(199, 64, 154);
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Piazzolla:ital@0;1&display=swap');
@@ -49,7 +50,7 @@ background-size: cover;
 }
 
 .link-primary:hover{
-    background-color: var(--color-primary2);
+    background-color: var(--color-pink);
 }
 
 .link-secondary {
@@ -131,6 +132,8 @@ background-size: cover;
     padding:1rem 1rem;
     max-width:60vw;
     margin:auto;
+    font-size: 1.1rem;
+    
 }
 
 .section-head{
@@ -140,18 +143,23 @@ background-size: cover;
 .section-offwhite {
     padding: 1rem 1rem 2rem 1rem;
     background-color: var(--color-ow);
-
+    font-size: 1.1rem;
 }
 
 .footer {
     background-color: var(--color-primary);
-    text-align: center;
-    border-top-right-radius: 0.5rem;
-    padding: 0.1rem 0.1rem;
-}
-
-.footer-header{
     color: var(--color-white);
+    margin-top: 1rem;
+    text-align: center;
+    padding: 1rem;
+}
+.fab {
+    color: var(--color-white);
+    font-size: 1.5rem;
+    padding: 0.5rem 0.5rem 1rem 0.5rem;
+}
+.fab:hover {
+    color: var(--color-pink);
 }
 
 
@@ -163,6 +171,7 @@ margin: 2rem 1rem;
 .projects{
     display:flex;
     flex-wrap:wrap;
+    justify-content: center;
 }
 .project-details{
     border: 2px solid var(--color-primary);
@@ -177,9 +186,13 @@ margin: 2rem 1rem;
     background-color: var(--color-yellow);
 }
 
+.blog-page{
+    background-image: none;
+}
+
 .blog-listing-link{
     text-decoration: none;
-    color: #519494;
+    color: var(--color-primary);
 }
 
 video{
