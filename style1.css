@@ -22,6 +22,14 @@ body{
     line-height: 1.8rem;
     
 }
+@media only screen and (max-width: 768px) {
+    body {
+        padding: 2rem 2rem;
+        margin: auto;
+        width: fit-content;
+    }
+   
+}
 .bot-steps{
     width: 60vw;
     height: auto;
