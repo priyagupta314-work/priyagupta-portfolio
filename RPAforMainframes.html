@@ -15,15 +15,15 @@
             <small> January 3, 2021</small>
             <code style=background-color:gray> Technical </code>
             
-            <p> Automation Anywhere is a RPA tool that provides great capabilities to automate repetetive and rule-based tasks. You start with noting down the manual steps that a real human being would perform and then train a bot to perform exactly same actions. The bot performs them repeatedly and without any errors. Below is a use-case of using RPA on Mainframe systems.</p>
-            
+          
         </div>
         
     </section>
-    <p class="blog-listing"> Automation Anywhere is a RPA tool that provides great capabilities to automate repetitive and rule-based tasks. You start with noting down the manual steps that a real human being would perform and then train a bot to perform exactly same actions. The bot performs them repeatedly and without any errors. Below is a use-case of using RPA on Mainframe systems.  </p>
+    <p class="blog-listing"> <i>Automation Anywhere</i> is a RPA tool that provides great capabilities to automate repetitive and rule-based tasks. You start with noting down the manual steps that a real human being would perform and then train a bot to perform exactly same actions. The bot performs them repeatedly and without any errors. Below is a use-case of using RPA on Mainframe systems.  </p>
     <p class="blog-listing"> <strong>Scenario: </strong> Suppose, we have a list of 5000+ mainframe batch jobs in an excel sheet. We need to check the status of all these jobs in a job scheduler like CA7 and determine if the job is active or an obsolete one. This has to be checked for each job manually by logging in to CA7, entering the command that gives us the job status followed by job name. Once the details appear on the screen, relevant details need to be copied and pasted to the excel sheet. </p>
     <p class="blog-listing"> Now, doing this for a large number of jobs is a very tedious process and can lead to human errors. However, if we look carefully, we find that the steps are rule-based and repetitive and therefore, an Automation Anywhere bot can be created to have the task done. Let’s see how to do this.</p>
-    <p class="blog-listing"> <strong>Step 1. </strong> We have to start with listing down each manual step that a real human would do to accomplish the required information for a particular job. Now, this step is very important and every minute detail has to be captured as the bot will have to be trained on every single action. Something which is very obvious to a human, is not very obvious to a bot unless explicitly mentioned. Let’s start writing down the steps:</p>
+    <p class="blog-listing"><strong>Step 1. Listing down the manual steps</strong></p>
+    <p class="blog-listing">  We have to start with listing down each manual step that a real human would do to accomplish the required information for a particular job. Now, this step is very important and every minute detail has to be captured as the bot will have to be trained on every single action. Something which is very obvious to a human, is not very obvious to a bot unless explicitly mentioned. Let’s start writing down the steps:</p>
     <ol class="blog-listing">
         
         <li> Open excel sheet containing the list of jobs</li>
@@ -40,9 +40,10 @@
         <li> Save the spreadsheet.</li>
                 
     </ol>
-    <p class="blog-listing"> <strong>Step 2. </strong> Now that we have all the steps listed, lets see how to train bot on these. Below image shows all the steps that a bot would execute. The most important step of screen scraping is achieved through step 9: OCR Capture area where the X and Y coordinates of the information to be captured are noted. These co-ordinates are used by the bot to extract the relevant information.</p> 
+    <p class="blog-listing"><strong>Step 2. Create the bot. </strong></p>
+    <p class="blog-listing">  Now that we have all the steps listed, lets see how to train bot on these. Below image shows all the steps that a bot would execute. The most important step of screen scraping is achieved through step 9: OCR Capture area where the X and Y coordinates of the information to be captured are noted. These co-ordinates are used by the bot to extract the relevant information.</p> 
     <img class="bot-steps" src="AA steps.PNG" alt = "Bot steps image" />
-    <p class="blog-listing"> View the bot in action in the video below. </p>
+    <p class="blog-listing"> <strong> Step 3. View the bot in action in the video below. </strong> </p>
     <video  controls>
         <source src = "Presentation2.mp4" type="video/mp4" /> 
         
