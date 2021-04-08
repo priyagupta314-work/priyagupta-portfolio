@@ -106,7 +106,7 @@ background-size: cover;
 
 
 .hero-img {
-    height: 40vh;
+    height: auto;
     width: 40vw;
     margin: auto;
     padding: 1rem;
@@ -166,6 +166,10 @@ background-size: cover;
 .blog-listing{
 padding: 0rem 4rem;
 margin: 2rem 1rem;
+}
+
+.blog-listing-link:hover{
+    text-decoration: underline;
 }
 
 .projects{
