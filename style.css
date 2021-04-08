@@ -41,6 +41,7 @@ background-size: cover;
     
 }
 
+
 .link-active{
     font-weight: bold;
 }
@@ -94,6 +95,10 @@ background-size: cover;
 
 .navigation .link {
     color: var(--color-white);
+}
+
+.navigation .link:hover{
+    color: var(--color-pink);
 }
 
 .navigation-container .link-active {
